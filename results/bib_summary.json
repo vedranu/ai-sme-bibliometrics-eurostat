@@ -1,0 +1,644 @@
+{
+ "n_screened_all": 3064,
+ "n_strict_all": 1658,
+ "excluded_repository_or_nosource_in_strict": 164,
+ "n_core": 1494,
+ "n_screened_journal": 2737,
+ "cagr_2019_2025": {
+  "openalex_raw": 69.2,
+  "scopus": 57.7,
+  "wos": 55.7,
+  "openalex_core": 84.9,
+  "openalex_core_cwts": 65.2,
+  "sme_all": 18.6
+ },
+ "totals": {
+  "openalex_raw": 3333,
+  "scopus": 1116,
+  "wos": 964,
+  "openalex_core": 1494,
+  "openalex_core_cwts": 597,
+  "sme_all": 185981
+ },
+ "logdiff_corr_2017_2025": {
+  "openalex_raw~scopus": 0.38,
+  "openalex_raw~wos": 0.42,
+  "scopus~wos": 0.64
+ },
+ "mean_logdiff_2017_2025": {
+  "openalex_raw": 80.9,
+  "scopus": 68.2,
+  "wos": 61.3
+ },
+ "ratio_oa_raw_to_scopus": {
+  "2019": 2.54,
+  "2021": 1.9,
+  "2023": 2.3,
+  "2024": 2.98,
+  "2025": 3.86
+ },
+ "penetration_per1000": {
+  "2019": 1.92,
+  "2023": 7.39,
+  "2025": 27.61
+ },
+ "sources_by_period": {
+  "2010-2020": {
+   "n": 78,
+   "repository_or_none": 0.205,
+   "cwts_core": 0.436,
+   "doaj": 0.128
+  },
+  "2021-2023": {
+   "n": 298,
+   "repository_or_none": 0.094,
+   "cwts_core": 0.537,
+   "doaj": 0.178
+  },
+  "2024": {
+   "n": 383,
+   "repository_or_none": 0.055,
+   "cwts_core": 0.363,
+   "doaj": 0.149
+  },
+  "2025": {
+   "n": 899,
+   "repository_or_none": 0.11,
+   "cwts_core": 0.294,
+   "doaj": 0.152
+  }
+ },
+ "dropped_themes": {
+  "computer vision": 13
+ },
+ "n_nodes": 42,
+ "n_edges": 856,
+ "louvain_grid": {
+  "1.0": {
+   "k_median": 4.0,
+   "k_range": [
+    4,
+    4
+   ],
+   "ari_mean": 0.79,
+   "modularity": 0.071
+  },
+  "1.1": {
+   "k_median": 5.0,
+   "k_range": [
+    4,
+    6
+   ],
+   "ari_mean": 0.766,
+   "modularity": 0.068
+  },
+  "1.15": {
+   "k_median": 7.0,
+   "k_range": [
+    6,
+    8
+   ],
+   "ari_mean": 0.816,
+   "modularity": 0.063
+  },
+  "1.2": {
+   "k_median": 10.0,
+   "k_range": [
+    8,
+    10
+   ],
+   "ari_mean": 0.884,
+   "modularity": 0.056
+  },
+  "1.25": {
+   "k_median": 10.0,
+   "k_range": [
+    9,
+    13
+   ],
+   "ari_mean": 0.904,
+   "modularity": 0.055
+  },
+  "1.5": {
+   "k_median": 18.0,
+   "k_range": [
+    16,
+    18
+   ],
+   "ari_mean": 0.948,
+   "modularity": 0.038
+  }
+ },
+ "resolution": 1.0,
+ "dt_res_same_cluster_rate": {
+  "core_1.0": 0.0,
+  "core_1.1": 0.0,
+  "core_1.15": 0.0,
+  "core_1.2": 0.0,
+  "core_1.25": 0.0,
+  "screened_1.0": 0.32
+ },
+ "modal_partition_share": 0.56,
+ "clusters": [
+  [
+   "adoption / intention",
+   "innovation",
+   "competitiveness",
+   "barriers / challenges",
+   "skills / competences",
+   "regulation / policy",
+   "entrepreneurship",
+   "readiness / maturity",
+   "human resources",
+   "firm performance",
+   "emerging economies",
+   "adoption models (TOE/TAM/UTAUT)",
+   "dynamic capabilities"
+  ],
+  [
+   "productivity / efficiency",
+   "cost / investment",
+   "marketing",
+   "data privacy / security",
+   "generative AI / LLM",
+   "customer service / CRM",
+   "chatbots / conversational AI",
+   "e-commerce",
+   "NLP / text analytics",
+   "process automation / RPA"
+  ],
+  [
+   "machine learning",
+   "decision-making",
+   "ethics / trust",
+   "supply chain / logistics",
+   "resilience",
+   "crisis / COVID-19",
+   "credit risk / fintech",
+   "deep learning",
+   "accounting / finance"
+  ],
+  [
+   "digital transformation",
+   "big data / analytics",
+   "manufacturing / quality",
+   "sustainability / ESG",
+   "IoT",
+   "blockchain",
+   "cloud computing",
+   "internationalisation",
+   "Industry 4.0",
+   "business model"
+  ]
+ ],
+ "sensitivity_ARI_core_vs_screened": 0.53,
+ "thematic_map": [
+  {
+   "cluster": "C1",
+   "label": "adoption / intention, innovation",
+   "papers": 1192,
+   "n_themes": 13,
+   "centrality": 30.462,
+   "density": 1.502
+  },
+  {
+   "cluster": "C2",
+   "label": "productivity / efficiency, cost / investment",
+   "papers": 1029,
+   "n_themes": 10,
+   "centrality": 32.281,
+   "density": 1.735
+  },
+  {
+   "cluster": "C3",
+   "label": "machine learning, decision-making",
+   "papers": 1010,
+   "n_themes": 9,
+   "centrality": 33.096,
+   "density": 1.408
+  },
+  {
+   "cluster": "C4",
+   "label": "digital transformation, big data / analytics",
+   "papers": 806,
+   "n_themes": 10,
+   "centrality": 36.735,
+   "density": 2.073
+  }
+ ],
+ "period_n": [
+  62,
+  270,
+  1162
+ ],
+ "evolution": [
+  [
+   {
+    "label": "machine learning, credit risk / fintech",
+    "n": 44,
+    "themes": [
+     "credit risk / fintech",
+     "deep learning",
+     "ethics / trust",
+     "machine learning",
+     "regulation / policy",
+     "skills / competences",
+     "supply chain / logistics"
+    ]
+   },
+   {
+    "label": "cost / investment, big data / analytics",
+    "n": 34,
+    "themes": [
+     "IoT",
+     "barriers / challenges",
+     "big data / analytics",
+     "cloud computing",
+     "cost / investment",
+     "manufacturing / quality",
+     "productivity / efficiency"
+    ]
+   },
+   {
+    "label": "innovation, competitiveness",
+    "n": 31,
+    "themes": [
+     "adoption / intention",
+     "competitiveness",
+     "crisis / COVID-19",
+     "decision-making",
+     "entrepreneurship",
+     "innovation",
+     "marketing",
+     "sustainability / ESG"
+    ]
+   }
+  ],
+  [
+   {
+    "label": "machine learning, crisis / COVID-19",
+    "n": 186,
+    "themes": [
+     "credit risk / fintech",
+     "crisis / COVID-19",
+     "decision-making",
+     "deep learning",
+     "machine learning",
+     "supply chain / logistics"
+    ]
+   },
+   {
+    "label": "innovation, regulation / policy",
+    "n": 152,
+    "themes": [
+     "blockchain",
+     "competitiveness",
+     "data privacy / security",
+     "e-commerce",
+     "entrepreneurship",
+     "ethics / trust",
+     "innovation",
+     "internationalisation",
+     "regulation / policy",
+     "resilience",
+     "skills / competences",
+     "sustainability / ESG"
+    ]
+   },
+   {
+    "label": "productivity / efficiency, cost / investment",
+    "n": 142,
+    "themes": [
+     "Industry 4.0",
+     "IoT",
+     "big data / analytics",
+     "cloud computing",
+     "cost / investment",
+     "manufacturing / quality",
+     "productivity / efficiency"
+    ]
+   },
+   {
+    "label": "adoption / intention, barriers / challenges",
+    "n": 128,
+    "themes": [
+     "accounting / finance",
+     "adoption / intention",
+     "adoption models (TOE/TAM/UTAUT)",
+     "barriers / challenges",
+     "business model",
+     "digital transformation",
+     "human resources",
+     "readiness / maturity"
+    ]
+   },
+   {
+    "label": "marketing, firm performance",
+    "n": 67,
+    "themes": [
+     "chatbots / conversational AI",
+     "customer service / CRM",
+     "dynamic capabilities",
+     "firm performance",
+     "generative AI / LLM",
+     "marketing"
+    ]
+   }
+  ],
+  [
+   {
+    "label": "adoption / intention, innovation",
+    "n": 985,
+    "themes": [
+     "adoption / intention",
+     "adoption models (TOE/TAM/UTAUT)",
+     "barriers / challenges",
+     "competitiveness",
+     "dynamic capabilities",
+     "emerging economies",
+     "entrepreneurship",
+     "firm performance",
+     "human resources",
+     "innovation",
+     "readiness / maturity",
+     "regulation / policy",
+     "skills / competences"
+    ]
+   },
+   {
+    "label": "productivity / efficiency, cost / investment",
+    "n": 815,
+    "themes": [
+     "NLP / text analytics",
+     "chatbots / conversational AI",
+     "cost / investment",
+     "customer service / CRM",
+     "e-commerce",
+     "generative AI / LLM",
+     "marketing",
+     "productivity / efficiency"
+    ]
+   },
+   {
+    "label": "machine learning, decision-making",
+    "n": 763,
+    "themes": [
+     "accounting / finance",
+     "credit risk / fintech",
+     "crisis / COVID-19",
+     "data privacy / security",
+     "decision-making",
+     "deep learning",
+     "ethics / trust",
+     "machine learning",
+     "resilience"
+    ]
+   },
+   {
+    "label": "digital transformation, supply chain / logistics",
+    "n": 704,
+    "themes": [
+     "Industry 4.0",
+     "IoT",
+     "big data / analytics",
+     "blockchain",
+     "business model",
+     "cloud computing",
+     "digital transformation",
+     "internationalisation",
+     "manufacturing / quality",
+     "supply chain / logistics",
+     "sustainability / ESG"
+    ]
+   }
+  ]
+ ],
+ "evolution_links": [
+  {
+   "frm": "machine learning, credit risk / fintech",
+   "to": "machine learning, crisis / COVID-19",
+   "period": 0,
+   "inclusion": 0.67
+  },
+  {
+   "frm": "machine learning, credit risk / fintech",
+   "to": "innovation, regulation / policy",
+   "period": 0,
+   "inclusion": 0.43
+  },
+  {
+   "frm": "cost / investment, big data / analytics",
+   "to": "productivity / efficiency, cost / investment",
+   "period": 0,
+   "inclusion": 0.86
+  },
+  {
+   "frm": "innovation, competitiveness",
+   "to": "machine learning, crisis / COVID-19",
+   "period": 0,
+   "inclusion": 0.33
+  },
+  {
+   "frm": "innovation, competitiveness",
+   "to": "innovation, regulation / policy",
+   "period": 0,
+   "inclusion": 0.5
+  },
+  {
+   "frm": "machine learning, crisis / COVID-19",
+   "to": "machine learning, decision-making",
+   "period": 1,
+   "inclusion": 0.83
+  },
+  {
+   "frm": "innovation, regulation / policy",
+   "to": "adoption / intention, innovation",
+   "period": 1,
+   "inclusion": 0.42
+  },
+  {
+   "frm": "innovation, regulation / policy",
+   "to": "machine learning, decision-making",
+   "period": 1,
+   "inclusion": 0.33
+  },
+  {
+   "frm": "innovation, regulation / policy",
+   "to": "digital transformation, supply chain / logistics",
+   "period": 1,
+   "inclusion": 0.27
+  },
+  {
+   "frm": "productivity / efficiency, cost / investment",
+   "to": "productivity / efficiency, cost / investment",
+   "period": 1,
+   "inclusion": 0.29
+  },
+  {
+   "frm": "productivity / efficiency, cost / investment",
+   "to": "digital transformation, supply chain / logistics",
+   "period": 1,
+   "inclusion": 0.71
+  },
+  {
+   "frm": "adoption / intention, barriers / challenges",
+   "to": "adoption / intention, innovation",
+   "period": 1,
+   "inclusion": 0.62
+  },
+  {
+   "frm": "adoption / intention, barriers / challenges",
+   "to": "digital transformation, supply chain / logistics",
+   "period": 1,
+   "inclusion": 0.25
+  },
+  {
+   "frm": "marketing, firm performance",
+   "to": "adoption / intention, innovation",
+   "period": 1,
+   "inclusion": 0.33
+  },
+  {
+   "frm": "marketing, firm performance",
+   "to": "productivity / efficiency, cost / investment",
+   "period": 1,
+   "inclusion": 0.67
+  }
+ ],
+ "trend_rise": {
+  "competitiveness": {
+   "2021-2023": 13.3,
+   "2024-2025": 32.5,
+   "change_pp": 19.2
+  },
+  "skills / competences": {
+   "2021-2023": 12.2,
+   "2024-2025": 30.7,
+   "change_pp": 18.5
+  },
+  "adoption / intention": {
+   "2021-2023": 27.0,
+   "2024-2025": 43.5,
+   "change_pp": 16.5
+  },
+  "productivity / efficiency": {
+   "2021-2023": 24.4,
+   "2024-2025": 38.0,
+   "change_pp": 13.6
+  },
+  "innovation": {
+   "2021-2023": 22.2,
+   "2024-2025": 35.5,
+   "change_pp": 13.3
+  },
+  "ethics / trust": {
+   "2021-2023": 8.5,
+   "2024-2025": 21.4,
+   "change_pp": 12.9
+  }
+ },
+ "trend_fall": {
+  "machine learning": {
+   "2021-2023": 42.6,
+   "2024-2025": 25.5,
+   "change_pp": -17.1
+  },
+  "crisis / COVID-19": {
+   "2021-2023": 17.8,
+   "2024-2025": 8.2,
+   "change_pp": -9.6
+  },
+  "deep learning": {
+   "2021-2023": 14.4,
+   "2024-2025": 7.3,
+   "change_pp": -7.1
+  },
+  "credit risk / fintech": {
+   "2021-2023": 13.3,
+   "2024-2025": 7.7,
+   "change_pp": -5.6
+  },
+  "Industry 4.0": {
+   "2021-2023": 7.4,
+   "2024-2025": 3.6,
+   "change_pp": -3.8
+  }
+ },
+ "trend_selected": {
+  "generative AI / LLM": {
+   "2010-2020": 0.0,
+   "2021-2023": 3.7,
+   "2024-2025": 10.5,
+   "change_pp": 6.8
+  },
+  "resilience": {
+   "2010-2020": 1.6,
+   "2021-2023": 8.5,
+   "2024-2025": 12.2,
+   "change_pp": 3.7
+  },
+  "digital transformation": {
+   "2010-2020": 4.8,
+   "2021-2023": 13.3,
+   "2024-2025": 25.5,
+   "change_pp": 12.2
+  },
+  "machine learning": {
+   "2010-2020": 54.8,
+   "2021-2023": 42.6,
+   "2024-2025": 25.5,
+   "change_pp": -17.1
+  },
+  "crisis / COVID-19": {
+   "2010-2020": 9.7,
+   "2021-2023": 17.8,
+   "2024-2025": 8.2,
+   "change_pp": -9.6
+  },
+  "skills / competences": {
+   "2010-2020": 9.7,
+   "2021-2023": 12.2,
+   "2024-2025": 30.7,
+   "change_pp": 18.5
+  },
+  "sustainability / ESG": {
+   "2010-2020": 8.1,
+   "2021-2023": 4.4,
+   "2024-2025": 12.2,
+   "change_pp": 7.8
+  },
+  "barriers / challenges": {
+   "2010-2020": 12.9,
+   "2021-2023": 17.8,
+   "2024-2025": 29.6,
+   "change_pp": 11.8
+  }
+ },
+ "res_dt": {
+  "resilience": 166,
+  "dt": 335,
+  "both": 60,
+  "both_share_core": 4.0,
+  "share_of_resilience_with_dt": 36.1,
+  "share_of_dt_with_resilience": 17.9,
+  "assoc_strength": 1.61
+ },
+ "subset64": {
+  "n": 60,
+  "design": {
+   "conceptual/other": 28,
+   "review": 12,
+   "qualitative": 12,
+   "quantitative": 8
+  },
+  "mediation": 14,
+  "resilience_as_construct": 13,
+  "resilience_in_title": 13,
+  "years": {
+   "2022": 3,
+   "2023": 3,
+   "2024": 9,
+   "2025": 45
+  }
+ }
+}

@@ -1,0 +1,44 @@
+,group,papers,share_pct,in_network,regex
+generative AI / LLM,Technology,132,8.8,True,generative (ai|artificial)|chatgpt|large language model|\bllms?\b|\bgenai\b|\bgpt
+machine learning,Technology,445,29.8,True,machine learning|random forest|support vector|xgboost|gradient boosting
+deep learning,Technology,134,9.0,True,deep learning|neural network|convolutional|\blstm\b|transformer model
+chatbots / conversational AI,Technology,97,6.5,True,chatbot|conversational (ai|agent)|virtual assistant
+NLP / text analytics,Technology,51,3.4,True,natural language processing|\bnlp\b|text mining|sentiment analysis
+computer vision,Technology,13,0.9,False,computer vision|image (recognition|classification|processing)|defect detection|visual inspection
+process automation / RPA,Technology,26,1.7,True,robotic process automation|\brpa\b|process automation|automat(e|ion) of (routine|repetitive|business)|workflow automation
+big data / analytics,Technology,230,15.4,True,big data|business analytics|data analytics|business intelligence|predictive analytics
+cloud computing,Technology,102,6.8,True,cloud computing|\bcloud\b|software as a service|\bsaas\b
+IoT,Technology,123,8.2,True,internet of things|\biot\b|\biiot\b
+blockchain,Technology,106,7.1,True,blockchain|distributed ledger
+Industry 4.0,Technology,66,4.4,True,industry 4\.0|smart manufacturing|smart factor
+marketing,Function,292,19.5,True,marketing|advertis|social media|customer engagement
+e-commerce,Function,82,5.5,True,e-commerce|ecommerce|online (sales|shop|retail)|electronic commerce
+customer service / CRM,Function,119,8.0,True,customer (service|relationship|support|experience)|\bcrm\b
+accounting / finance,Function,89,6.0,True,accounting|financial reporting|audit|bookkeeping
+credit risk / fintech,Function,137,9.2,True,credit (risk|scoring|rating)|default prediction|fintech|lending|loan|bankruptcy|financial distress
+supply chain / logistics,Function,257,17.2,True,supply chain|logistic|inventory|procurement|demand forecast
+manufacturing / quality,Function,195,13.1,True,manufactur|production (process|planning|line)|quality control|predictive maintenance|maintenance
+human resources,Function,133,8.9,True,human resource|\bhrm\b|recruit|talent management|workforce
+decision-making,Function,320,21.4,True,decision[- ]making|decision support
+innovation,Function,487,32.6,True,innovation|innovative
+business model,Function,58,3.9,True,business model
+sustainability / ESG,Function,159,10.6,True,sustainable development|sustainability report|environmental sustainab|social sustainab|\besg\b|green (innovation|finance|supply|technolog|practice|economy|transition|product|procurement|ai)|circular economy|carbon|climate|environmental (performance|impact|management)|triple bottom line|\bsdgs?\b|corporate social responsibility|\bcsr\b
+adoption models (TOE/TAM/UTAUT),Adoption,96,6.4,True,\btoe\b|technology.organi[sz]ation.environment|\btam\b|technology acceptance|utaut|diffusion of innovation
+adoption / intention,Adoption,587,39.3,True,adoption|intention to use|acceptance
+readiness / maturity,Adoption,139,9.3,True,readiness|digital maturity|maturity model|preparedness
+skills / competences,Adoption,396,26.5,True,skill|competenc|literacy|expertise|upskill|reskill|employee training|staff training|training programme|training program
+barriers / challenges,Adoption,400,26.8,True,barrier|obstacle|impediment|inhibitor|hinder|constraint|(adoption|implementation|integration) challenge|challenges? (of|in|to|for|related to|when|associated with) (the )?(adopt|implement|integrat|us|deploy)
+cost / investment,Adoption,457,30.6,True,\bcosts?\b|investment|return on investment|\broi\b|financial resources
+data privacy / security,Adoption,209,14.0,True,privacy|data protection|\bgdpr\b|cybersecurity|cyber security|cyber-security|data security|information security
+ethics / trust,Adoption,277,18.5,True,ethic|trust|responsible ai|bias|transparen
+regulation / policy,Adoption,351,23.5,True,regulat|\bai act\b|public policy|government support|policy makers|policymakers
+digital transformation,Outcome,335,22.4,True,digital transformation|digitali[sz]ation|digiti[sz]ation
+resilience,Outcome,166,11.1,True,resilien
+crisis / COVID-19,Outcome,149,10.0,True,covid|pandemic|crisis|crises|disruption|uncertaint
+dynamic capabilities,Outcome,87,5.8,True,dynamic capabilit|absorptive capacity|resource.based view|\brbv\b
+firm performance,Outcome,111,7.4,True,firm performance|business performance|organi[sz]ational performance|financial performance|performance of (smes|small)
+productivity / efficiency,Outcome,513,34.3,True,productivity|efficiency
+competitiveness,Outcome,424,28.4,True,competitive
+entrepreneurship,Outcome,162,10.8,True,entrepreneur|start-?up
+internationalisation,Outcome,67,4.5,True,internationali[sz]ation|export|global market
+emerging economies,Outcome,105,7.0,True,emerging econom|developing (countr|econom)|low- and middle-income

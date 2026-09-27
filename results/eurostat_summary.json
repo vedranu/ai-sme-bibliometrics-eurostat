@@ -1,0 +1,314 @@
+{
+ "ai_by_size": {
+  "EU27_2020|10-49": {
+   "2021": 6.12,
+   "2023": 6.41,
+   "2024": 11.21,
+   "2025": 17.0
+  },
+  "EU27_2020|50-249": {
+   "2021": 12.55,
+   "2023": 13.07,
+   "2024": 20.97,
+   "2025": 30.36
+  },
+  "EU27_2020|GE10": {
+   "2021": 7.65,
+   "2023": 8.06,
+   "2024": 13.48,
+   "2025": 19.95
+  },
+  "EU27_2020|GE250": {
+   "2021": 28.41,
+   "2023": 30.48,
+   "2024": 41.17,
+   "2025": 55.03
+  },
+  "HR|10-49": {
+   "2021": 8.06,
+   "2023": 6.98,
+   "2024": 10.51,
+   "2025": 12.77
+  },
+  "HR|50-249": {
+   "2021": 9.85,
+   "2023": 11.17,
+   "2024": 16.49,
+   "2025": 25.5
+  },
+  "HR|GE10": {
+   "2021": 8.74,
+   "2023": 7.89,
+   "2024": 11.76,
+   "2025": 15.19
+  },
+  "HR|GE250": {
+   "2021": 21.54,
+   "2023": 19.29,
+   "2024": 28.36,
+   "2025": 39.57
+  }
+ },
+ "gap_ratio_large_small_EU27_2020": {
+  "2021": 4.64,
+  "2023": 4.76,
+  "2024": 3.67,
+  "2025": 3.24
+ },
+ "gap_pp_large_small_EU27_2020": {
+  "2021": 22.3,
+  "2023": 24.1,
+  "2024": 30.0,
+  "2025": 38.0
+ },
+ "gap_ratio_large_small_HR": {
+  "2021": 2.67,
+  "2023": 2.76,
+  "2024": 2.7,
+  "2025": 3.1
+ },
+ "gap_pp_large_small_HR": {
+  "2021": 13.5,
+  "2023": 12.3,
+  "2024": 17.8,
+  "2025": 26.8
+ },
+ "country_n": 27,
+ "spearman_dii_ai_small": [
+  0.788,
+  1.0889390955443272e-06
+ ],
+ "pearson_dii_ai_small": [
+  0.817,
+  1.9809656486213868e-07
+ ],
+ "ols_slope_pp_per_pp": 0.523,
+ "r2": 0.668,
+ "spearman_aismall_ratio": [
+  -0.899,
+  1.8321448114515795e-10
+ ],
+ "HR_2025": {
+  "ai_small": 12.77,
+  "ai_large": 39.57,
+  "dii_small": 52.93,
+  "gap_pp": 26.8,
+  "ratio": 3.1
+ },
+ "HR_rank_ai_small": 19,
+ "HR_rank_dii_small": 24,
+ "ai_small_range": [
+  "RO",
+  4.1,
+  "DK",
+  37.4
+ ],
+ "ai_rate_within_dii_EU_2025": {
+  "very low|10-49": 0.9,
+  "very low|50-249": 1.4,
+  "very low|GE250": 2.2,
+  "low|10-49": 8.4,
+  "low|50-249": 7.9,
+  "low|GE250": 9.5,
+  "high|10-49": 32.6,
+  "high|50-249": 33.1,
+  "high|GE250": 40.9,
+  "very high|10-49": 74.1,
+  "very high|50-249": 77.7,
+  "very high|GE250": 87.5
+ },
+ "barriers_2025": {
+  "EU27_2020|10-49": {
+   "AI not useful for the enterprise": 19.2,
+   "Ethical considerations": 25.3,
+   "Costs seem too high": 38.8,
+   "Incompatibility with existing systems": 41.7,
+   "Data availability or quality": 43.7,
+   "Data protection and privacy concerns": 52.5,
+   "Unclear legal consequences": 54.8,
+   "Lack of relevant expertise": 70.9
+  },
+  "EU27_2020|50-249": {
+   "AI not useful for the enterprise": 13.8,
+   "Ethical considerations": 22.7,
+   "Costs seem too high": 37.3,
+   "Incompatibility with existing systems": 42.0,
+   "Data availability or quality": 42.8,
+   "Data protection and privacy concerns": 52.3,
+   "Unclear legal consequences": 49.4,
+   "Lack of relevant expertise": 69.2
+  },
+  "EU27_2020|GE250": {
+   "AI not useful for the enterprise": 9.8,
+   "Ethical considerations": 21.2,
+   "Costs seem too high": 34.8,
+   "Incompatibility with existing systems": 38.0,
+   "Data availability or quality": 43.8,
+   "Data protection and privacy concerns": 58.8,
+   "Unclear legal consequences": 51.2,
+   "Lack of relevant expertise": 65.1
+  },
+  "HR|10-49": {
+   "AI not useful for the enterprise": 18.4,
+   "Ethical considerations": 18.5,
+   "Costs seem too high": 67.7,
+   "Incompatibility with existing systems": 60.4,
+   "Data availability or quality": 60.7,
+   "Data protection and privacy concerns": 34.7,
+   "Unclear legal consequences": 52.5,
+   "Lack of relevant expertise": 63.3
+  },
+  "HR|50-249": {
+   "AI not useful for the enterprise": 15.1,
+   "Ethical considerations": 14.4,
+   "Costs seem too high": 60.2,
+   "Incompatibility with existing systems": 53.7,
+   "Data availability or quality": 35.1,
+   "Data protection and privacy concerns": 38.3,
+   "Unclear legal consequences": 48.5,
+   "Lack of relevant expertise": 65.8
+  },
+  "HR|GE250": {
+   "AI not useful for the enterprise": 17.3,
+   "Ethical considerations": 17.0,
+   "Costs seem too high": 52.6,
+   "Incompatibility with existing systems": 47.7,
+   "Data availability or quality": 32.5,
+   "Data protection and privacy concerns": 39.2,
+   "Unclear legal consequences": 35.7,
+   "Lack of relevant expertise": 59.2
+  }
+ },
+ "considered_among_nonusers_2025": {
+  "10-49": {
+   "EU27_2020": 12.6,
+   "HR": 6.4
+  },
+  "50-249": {
+   "EU27_2020": 22.3,
+   "HR": 15.3
+  },
+  "GE250": {
+   "EU27_2020": 36.5,
+   "HR": 30.5
+  }
+ },
+ "purposes_2025": {
+  "EU27_2020|10-49": {
+   "Marketing or sales": 34.1,
+   "Business administration or management": 28.5,
+   "Accounting, controlling or finance": 22.2,
+   "Production processes": 19.0,
+   "R&D or innovation": 17.3,
+   "ICT security": 14.5,
+   "Logistics": 4.9
+  },
+  "EU27_2020|50-249": {
+   "Marketing or sales": 35.7,
+   "Business administration or management": 35.0,
+   "Accounting, controlling or finance": 24.2,
+   "Production processes": 21.8,
+   "R&D or innovation": 20.8,
+   "ICT security": 27.0,
+   "Logistics": 6.6
+  },
+  "EU27_2020|GE250": {
+   "Marketing or sales": 37.9,
+   "Business administration or management": 43.4,
+   "Accounting, controlling or finance": 28.3,
+   "Production processes": 33.5,
+   "R&D or innovation": 29.7,
+   "ICT security": 47.5,
+   "Logistics": 15.0
+  },
+  "HR|10-49": {
+   "Marketing or sales": 34.2,
+   "Business administration or management": 21.3,
+   "Accounting, controlling or finance": 8.9,
+   "Production processes": 8.6,
+   "R&D or innovation": 4.5,
+   "ICT security": 22.1,
+   "Logistics": 0.6
+  },
+  "HR|50-249": {
+   "Marketing or sales": 25.8,
+   "Business administration or management": 28.0,
+   "Accounting, controlling or finance": 13.4,
+   "Production processes": 9.3,
+   "R&D or innovation": 7.8,
+   "ICT security": 25.4,
+   "Logistics": 6.3
+  },
+  "HR|GE250": {
+   "Marketing or sales": 29.3,
+   "Business administration or management": 31.4,
+   "Accounting, controlling or finance": 15.5,
+   "Production processes": 10.7,
+   "R&D or innovation": 5.9,
+   "ICT security": 46.7,
+   "Logistics": 11.4
+  }
+ },
+ "tech_2025": {
+  "EU27_2020|10-49": {
+   "Text mining": 9.9,
+   "Image, video or audio generation": 8.1,
+   "Natural language generation": 7.0,
+   "Speech recognition": 5.9,
+   "Workflow automation / decision support": 4.1,
+   "Machine learning for data analysis": 3.8,
+   "Image recognition": 3.0,
+   "Autonomous robots, vehicles, drones": 1.0
+  },
+  "EU27_2020|50-249": {
+   "Text mining": 18.2,
+   "Image, video or audio generation": 14.4,
+   "Natural language generation": 14.8,
+   "Speech recognition": 11.3,
+   "Workflow automation / decision support": 8.7,
+   "Machine learning for data analysis": 8.7,
+   "Image recognition": 5.8,
+   "Autonomous robots, vehicles, drones": 2.2
+  },
+  "EU27_2020|GE250": {
+   "Text mining": 35.0,
+   "Image, video or audio generation": 27.9,
+   "Natural language generation": 31.7,
+   "Speech recognition": 26.1,
+   "Workflow automation / decision support": 24.4,
+   "Machine learning for data analysis": 25.0,
+   "Image recognition": 16.7,
+   "Autonomous robots, vehicles, drones": 8.6
+  },
+  "HR|10-49": {
+   "Text mining": 8.4,
+   "Image, video or audio generation": 5.9,
+   "Natural language generation": 6.4,
+   "Speech recognition": 3.4,
+   "Workflow automation / decision support": 1.7,
+   "Machine learning for data analysis": 4.3,
+   "Image recognition": 2.3,
+   "Autonomous robots, vehicles, drones": 0.6
+  },
+  "HR|50-249": {
+   "Text mining": 15.6,
+   "Image, video or audio generation": 11.8,
+   "Natural language generation": 12.1,
+   "Speech recognition": 9.2,
+   "Workflow automation / decision support": 7.1,
+   "Machine learning for data analysis": 7.7,
+   "Image recognition": 6.4,
+   "Autonomous robots, vehicles, drones": 1.2
+  },
+  "HR|GE250": {
+   "Text mining": 21.5,
+   "Image, video or audio generation": 17.5,
+   "Natural language generation": 16.6,
+   "Speech recognition": 13.8,
+   "Workflow automation / decision support": 19.7,
+   "Machine learning for data analysis": 12.9,
+   "Image recognition": 8.8,
+   "Autonomous robots, vehicles, drones": 3.6
+  }
+ }
+}

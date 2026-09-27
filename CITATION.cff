@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it as below."
+title: "Bibliometric trends and Eurostat evidence on AI in SMEs: data and code"
+version: "1.0.0"
+date-released: 2026-09-28
+license: MIT
+repository-code: "https://github.com/vedranu/ai-sme-bibliometrics-eurostat"
+authors:
+  - family-names: "Uroš"
+    given-names: "Vedran"
+    orcid: "https://orcid.org/0009-0007-6568-0827"
+    affiliation: "Marko Marulić University of Applied Sciences in Knin; University of Zagreb, Faculty of Organization and Informatics"
+  - family-names: "Baraća"
+    given-names: "Karla"
+    affiliation: "Marko Marulić University of Applied Sciences in Knin"
+  - family-names: "Mihanović"
+    given-names: "Damir"
+    affiliation: "Marko Marulić University of Applied Sciences in Knin"
+keywords: [artificial intelligence, SMEs, digital transformation, bibliometrics, OpenAlex, Eurostat, co-word analysis]
+preferred-citation:
+  type: conference-paper
+  title: "Bibliometric Trends and Eurostat Evidence on Artificial Intelligence in Small and Medium-Sized Enterprises"
+  authors:
+    - family-names: "Baraća"
+      given-names: "Karla"
+    - family-names: "Uroš"
+      given-names: "Vedran"
+      orcid: "https://orcid.org/0009-0007-6568-0827"
+    - family-names: "Mihanović"
+      given-names: "Damir"
+  collection-title: "Global Advances in Management and Entrepreneurship Conference Proceedings"
+  year: 2026

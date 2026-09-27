@@ -1,0 +1,9 @@
+Derived data, tables and figures in results/, figures/ and validation/ are licensed under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Third-party data in data/ keep their original terms:
+- OpenAlex (data/openalex/): CC0 1.0, https://openalex.org
+- Eurostat (data/eurostat/): (c) European Union, reuse under the Eurostat copyright and licence policy (CC BY 4.0),
+  https://ec.europa.eu/eurostat/about-us/policies/copyright
+- Scopus and Web of Science (data/scopus_wos/): annual publication counts and query strings only.
