@@ -3,6 +3,11 @@ message: "If you use this package, please cite it as below."
 title: "Bibliometric trends and Eurostat evidence on AI in SMEs: data and code"
 version: "1.0.0"
 date-released: 2026-09-28
+doi: "10.5281/zenodo.23004118"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23004118"
+    description: "Zenodo archive of release v1.0.0"
 license: MIT
 repository-code: "https://github.com/vedranu/ai-sme-bibliometrics-eurostat"
 authors:
