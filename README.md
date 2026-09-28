@@ -4,7 +4,7 @@
 
 Data and code for the paper:
 
-> Baraća, K., Uroš, V. and Mihanović, D. (2026) *Bibliometric Trends and Eurostat Evidence on Artificial Intelligence in Small and Medium-Sized Enterprises*. Submitted to Global Advances in Management and Entrepreneurship (GAME) Conference Proceedings.
+> Barać, K., Uroš, V. and Mihanović, D. (2026) *Bibliometric Trends and Eurostat Evidence on Artificial Intelligence in Small and Medium-Sized Enterprises*. Submitted to Global Advances in Management and Entrepreneurship (GAME) Conference Proceedings.
 
 The package reproduces every number, table and figure in the paper from the stored data with one command.
 
@@ -73,7 +73,7 @@ Scopus and Web of Science were queried through the institutional interface (NSK 
 
 Please cite the paper and this package (see `CITATION.cff`):
 
-Uroš, V., Baraća, K. and Mihanović, D. (2026) *Bibliometric trends and Eurostat evidence on AI in SMEs: data and code* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23004118
+Uroš, V., Barać, K. and Mihanović, D. (2026) *Bibliometric trends and Eurostat evidence on AI in SMEs: data and code* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23004118
 
 ## Acknowledgement
 

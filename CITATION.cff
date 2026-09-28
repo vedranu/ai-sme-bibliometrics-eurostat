@@ -15,7 +15,7 @@ authors:
     given-names: "Vedran"
     orcid: "https://orcid.org/0009-0007-6568-0827"
     affiliation: "Marko Marulić University of Applied Sciences in Knin; University of Zagreb, Faculty of Organization and Informatics"
-  - family-names: "Baraća"
+  - family-names: "Barać"
     given-names: "Karla"
     affiliation: "Marko Marulić University of Applied Sciences in Knin"
   - family-names: "Mihanović"
@@ -26,7 +26,7 @@ preferred-citation:
   type: conference-paper
   title: "Bibliometric Trends and Eurostat Evidence on Artificial Intelligence in Small and Medium-Sized Enterprises"
   authors:
-    - family-names: "Baraća"
+    - family-names: "Barać"
       given-names: "Karla"
     - family-names: "Uroš"
       given-names: "Vedran"
